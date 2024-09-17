@@ -1,0 +1,160 @@
+# Task-1
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="ecom.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+.icon i{
+    height: 80px;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    justify-content: space-around;
+    box-shadow:  0px 5px 35px rgba(0,0,0,0.9);
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid;
+    background-color: #088178;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar-list ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.navbar-list ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+   font-size: 16px;
+   transition: 0.3s ease;
+   letter-spacing: 1px;
+   position: relative;
+}
+
+
+body{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  
+}
+.nav-icon a{
+    color: black;
+    transition: 0.3s ease;
+}
+
+
+
+.hero-sec{
+    /* width: ; */
+    background-image: url("https://raw.githubusercontent.com/Drop-X-Out/ecommerce-responsive/c9c0e2ef7a05d5bc12cd5c17279eb7b53d3c47da/images/banner/b17.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0.9;
+    /* width: 100%; */
+    
+    
+}
+    
+    
+.hero-sec h1{
+    color: black;
+    font-size: 65px;
+     margin-left: 100px; 
+}
+.hero-sec h2{
+    color:#088178;
+    font-size: 60px;
+    margin-left: 100px;
+}
+.hero-sec h4{
+    margin-top: 30px;
+    color:white;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.trade{
+    margin-left: 100px;
+}
+.hero-sec button{
+    
+    font-size: 20px;
+    height: 60px;
+    width: 160px;
+    font-weight: 700;
+    
+    background-size: cover;
+    cursor: pointer;
+    color: #1c1e1d;
+    background-color:rgb(255, 81, 0);
+    border: 0px solid;
+    border-radius: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo"><a href=""><img src="https://cdn.worldvectorlogo.com/logos/lorem-lorem-1.svg" alt="" height="100px"></a></div>
+        <div class="navbar ">
+            <nav class="navbar-list edit">
+                <ul>
+                    <li><a href="#" class="act">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <div class="nav-icon ">
+                        <a href=""><i class="fa-solid fa-bag-shopping" class="icon"></i></a>
+                        <p class="value">0</p>
+                    </div>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <!-- <div class="nav-icon ">
+                <a href=""><i class="fa-solid fa-bag-shopping" class="icon"></i></a>
+            </div> -->
+        </div>
+    </header>
+    <main>
+        <section class="hero-sec">
+            <h4 class="trade" class="offer">Trade-in-offer</h4>
+            <h1 class="trade">Super Value Deals</h1>
+            <h2 class="trade">On All Products</h2>
+            <p class="trade">Save more coupons & up to 70% off! </p>
+            <Button class="trade">Shop Now</Button>
+        </section>
+        </main>
+        </body>
+        
